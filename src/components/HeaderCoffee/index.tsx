@@ -6,7 +6,7 @@ const HeaderCoffee = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 40px;
+  padding: 20px 30px;
   background-color: var(--color-black-dark);
   border-bottom: 4px solid var(--color-primary);
 
@@ -26,6 +26,7 @@ const HeaderCoffee = styled.header`
       bottom: 0;
       left: 0;
       right: 0;
+      width: 100%;
     }
   }
 `;

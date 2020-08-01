@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
-const ButtonCoffee = styled.a`
-  padding: 14px 35px;
+const ButtonCoffee = styled.button`
+  padding: 12rem 30rem;
   background-color: var(--color-black-dark);
   color: var(--color-gray-ligth);
   border: 1px solid var(--color-gray-ligth);
@@ -9,9 +9,6 @@ const ButtonCoffee = styled.a`
   font-size: 16rem;
   text-decoration: none;
   cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
   :hover {
     opacity: .7;
