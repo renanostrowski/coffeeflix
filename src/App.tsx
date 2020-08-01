@@ -1,25 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import HeaderCoffee from './components/HeaderCoffee';
+import LogoCoffee from './components/LogoCoffee';
+import ButtonCoffee from './components/ButtonCoffee';
+import FooterCoffee from './components/FooterCoffee';
+import LogoFooterCoffee from './components/LogoFooterCoffee';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <>
+      <HeaderCoffee>
+        <LogoCoffee />
+        <ButtonCoffee>Novo Vídeo</ButtonCoffee>
+      </HeaderCoffee>
+
+      <FooterCoffee>
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          Site feito na: 
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+        <LogoFooterCoffee />
+      </FooterCoffee>
+    </>
   );
 }
 
