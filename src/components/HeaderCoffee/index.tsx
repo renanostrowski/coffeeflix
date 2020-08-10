@@ -1,34 +1,38 @@
 import styled from 'styled-components';
 import ButtonCoffee from '../ButtonCoffee';
 import LogoCoffee from '../LogoCoffee';
+import container from '../../tools/container';
 
-const HeaderCoffee = styled.header`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 30px;
+export const HeaderCoffee = styled.header`
   background-color: var(--color-black-dark);
   border-bottom: 4px solid var(--color-primary);
+  padding: 20rem 25rem;
 
   @media(max-width: 800px){
-    justify-content: center;
-    padding: 15px 16px;
-
-    & > ${LogoCoffee} {
-      height: 35px;
-    }
-
-    & > ${ButtonCoffee} {
-      background-color: var(--color-primary);
-      border-radius: 0;
-      border: 0;
-      position: fixed;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      width: 100%;
-    }
+    padding: 15rem 16rem;
   }
 `;
 
-export default HeaderCoffee;
+export const Wrapper = styled.div`
+    ${container};
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    @media(max-width: 800px) {
+        justify-content: center;
+        
+        & > ${LogoCoffee} {
+            height: 35px;
+        }
+        & > ${ButtonCoffee} {
+            background-color: var(--color-primary-medium);
+            border-radius: 0;
+            border: 0;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100vw;
+        }
+    }
+`;

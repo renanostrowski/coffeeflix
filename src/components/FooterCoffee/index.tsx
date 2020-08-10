@@ -8,9 +8,8 @@ const FooterCoffee = styled.footer`
   font-size: 14rem;
   background-color: var(--color-black-dark);
   color: var(--color-gray-ligth);
-  padding: 5rem 0;
-  border-top: 4px solid var(--color-primary)
-
+  padding: 20rem 0;
+  border-top: 4px solid var(--color-primary);
 
   & > ${LogoCoffee} {
     margin-bottom: 15rem;

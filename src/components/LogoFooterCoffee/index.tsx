@@ -4,7 +4,7 @@ import LogoImersao from '../../assets/img/LogoImersao.svg';
 
 
 const LogoFooterCoffee = styled.img.attrs({src: LogoImersao, alt: 'Logo Imersão Alura'})`
-  height: 30px;
+  height: 20px;
   vertical-align: middle;
 `;
 

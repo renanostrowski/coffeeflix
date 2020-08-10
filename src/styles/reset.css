@@ -46,16 +46,12 @@ q:before, q:after {
 }
 table {
 	border-collapse: collapse;
-	border-spacing: 0;
-}
-html, body {
-	font-size: 1px;
-	min-width: 320px;
+    border-spacing: 0;
 }
 
-#root {
-	min-height: 100vh;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
+html, body {
+  font-size: 1px;
+	min-width: 320px;
+	height: 100vh;
+
 }
